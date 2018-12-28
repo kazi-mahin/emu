@@ -24,6 +24,11 @@ body{}
 .active{
 	color:red;
 }
+#notice_mar {
+	font-size:17px;
+	
+}
+
 #notice_mar a{
 	color:black;
 	
@@ -175,6 +180,7 @@ border-bottom: 2px solid;
 #navi_con2 ul,
 #navi_con3 ul{
 	position:relative;
+	overflow:scroll;
 }
 
 
@@ -462,6 +468,8 @@ div#dots {
 div#dis {
     text-align: center;
     width: 100%;
+    /* border-bottom: 3px solid tomato; */
+    padding-bottom: 100;
 }
 div#dis p {
     
@@ -488,19 +496,19 @@ line-height: 34px;
 }
 #programe_header h1{
 	font-size: 37px;
-    line-height: 50px;
-    margin: 0 0 050 0;
-    padding: 020 0 0 0;
-    font-style: normal;
-    color: #E90421;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-family: sans-serif;
-    display: inline-block;
-    border-bottom: 4px solid #E90421;
-    color: red;
-    animation: opa;
-    animation-duration: 3s;
+	line-height: 50px;
+	margin: 0 0 050 0;
+	padding: 020 0 0 0;
+	font-style: normal;
+	color: #E90421;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: sans-serif;
+	display: inline-block;
+	border-bottom: 4px solid #E90421;
+	color: red;
+	animation: opa;
+	animation-duration: 3s;
 }
 
 #programe_left,
@@ -678,7 +686,7 @@ border-radius:10px;
 	float:left;
 	height:400;
 	width:100%;
-	background:url('image/school.jpg') fixed;
+	background:url(../images/school.jpg) fixed;
 	background-size:cover;
 	color:white;
 }
@@ -702,21 +710,13 @@ line-height: 38px;
 	padding: 10px;
 	font-family: sans-serif;
 }
-#mission{
-	float:left;
-	height: 500;
-	width:100%;
-	background:url('image/school.jpg') fixed;
-	background-size:cover;
-}
 /* =====================com====================== */
 
 #com{
 	float:left;
 	height: 650px;
 	width:100%;
-	background:url('image/com.jpg') fixed;
-	background-size:cover;
+	
 	opacity:1;
 }
 #com_top h1{
@@ -980,30 +980,345 @@ background-color:F5F7F0;
 
 
 
+
+@media only screen and ( min-width:950px ) and (max-width:1000px) {
+	header{
+		
+		margin:;
+		height:200;
+		
+	}
+	#header_gap{
+	width:100%;
+	height:200;
+}
+	#navi ul {
+    margin: 114px 20px 0 0;
+	font-size:25;
+}
+	header #header_top {
+    height: 40px;}
+	#header_top_mail{font-size:25;}
+	#header_top_phone{font-size:25;}
+	
+	#navi_con1 ,
+	#navi_con2 ,
+	#navi_con3 {
+	    top: 200px;
+		width: 509px;
+		height:500;
+	}
+	#footer2{width:45%;}
+	#footer1{display:none;}
+	#footer3{width:45%;margin-left:5%;}
+	#footer3 img{height:25;width:25;}
+		
+	#header_top_imgl {
+		margin: 5px 5px 0 30;
+		height:25;
+		width:25;
+		
+	}
+	#header_top_imgr{
+		
+		margin: 5px 7px 0 10;
+		height:25;
+		width:25;
+		
+	}
+	#header_left h1 {
+    position: absolute;
+    font-size: 50;
+    margin: 40px 0 0 140px;
+}	
+	#header_left img {
+    height: 80px;
+    
+    width: 80px;
+    
+    margin: 30px 0 0 40px;
+    
+	}
+	
+	@keyframes header_h1{
+		
+		0% { margin-left:-200; opacity:0;}
+		50% {  opacity:.3;}
+		100% { opacity:1;}
+		
+	}
+		
+	h1{font-size:50px;}
+	#notice_mar,#m_notice {
+    font-size:30px;
+}
+	#m_notice {
+    height:43;
+	width:140;
+}
+	#com_left, #com_middle, #com_right {
+    
+    width: 46%;
+    margin-left: 2.5%;
+    
+	
+    
+}
+	#dis p{font-size:18px;}
+	#com_right {
+    
+    width: 46%;
+    margin:60px 0 0 30%  ;
+    
+	
+}
+}
+	#com{height:1400px;}
+	#com_left p, #com_middle p, #com_right p{
+    
+    line-height:30px;
+	font-size: 25px;
+    
+}
+#com_top p{font-size:25;}
+	
+
+table {
+	font-size:25;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and ( max-width:1000px ) {
 	
 	#footer2{width:45%;}
 	#footer1{display:none;}
 	#footer3{width:45%;margin-left:5%;}
 	#footer3 img{height:25;width:25;}
-	
-}
 
-
-
-
-
-
-
-
-
-
-@media only screen and ( min-width:950px ) and (max-width:1000px) {
-	
 
 }
 
 
 
 
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*============                               ===============*/
+/*============            sub                ===============*/
+/*============                               ===============*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
 
+
+
+
+
+
+
+#sub_slider{
+	width:100%;
+	height:400;
+	border-bottom:3px solid tomato;
+	/* background-image:url("image/sub_bg.jpg"); */
+	/* background-repeat:no-repeat; */
+	/* background-size:cover; */
+	
+}
+
+
+
+#sub_slider h1{
+	font-size: 50px;
+	font-family:cursive;
+	position:;
+	text-align:center;
+	padding-top: 100px;
+	/* color:black; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+/*==========================================================*/
+
+
+
+table {
+	margin-bottom:40;
+    width: 100%;
+    border: solid 1px #cccccc;
+}
+.table tr td {
+	border-bottom: solid 1px #cccccc;
+    border-left: solid 1px #cccccc;
+    
+    padding: 5px 0;
+    text-align: center;
+}
+#sub_result_bord{}
+#sub_result_bord h1{
+	text-align:center;
+	font-size: 37px;
+	line-height: 50px;
+	margin: 35px 0 20px 0;
+	padding: 020 0 0 0;
+	font-style: normal;
+	color: #E90421;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: sans-serif;
+	display: inline-block;
+	border-bottom: 4px solid #E90421;
+	color: red;
+	animation: opa;
+	animation-duration: 3s;
+}
+#sub_result_school{
+	width:100%;
+	float:left;
+	margin:30 0 50 0;
+}
+#sub_result_school button{
+	background-color:skyblue;
+	margin:20 0 0 0;
+	padding:10 20;
+}
+#sub_result_bord h1 span{}
+#sub_result_bord h1 span{}
+/* #sub_slider h1 span{ */
+
+	/* border-left:0 px solid red; */
+	/* animation:sub_slider; */
+	/* animation-duration:3s; */
+	
+/* } */
+
+
+/* @keyframes sub_slider{ */
+	/* 0%{width:0; margin:0;} */
+	/* 100%{width:0;margin:0;} */
+
+/* } */
+/*==========================================================*/
+
+#sub_gal{
+	height:auto;
+	width:100%;
+	margin:10;
+}
+
+
+#sub_gal img{
+	height:150;
+	width:150;
+	margin:0 10 0 10;
+	border:1px solid transparent;
+	transition:.5s;
+}
+
+
+#sub_gal h1{
+	text-align:center;
+	font-size: 37px;
+	line-height: 50px;
+	margin: 30px 0 30px 0;
+	padding: 020 0 0 0;
+	font-style: normal;
+	color: #E90421;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: sans-serif;
+	display: inline-block;
+	border-bottom: 4px solid #E90421;
+	color: red;
+	animation: opa;
+	animation-duration: 3s;
+}
+
+#sub_gal img:hover{
+	
+	transform:scale(1.05);
+	border:1px solid tomato;
+}
+
+
+
+/*==========================================================*/
+#video_gal{
+	width:100%;
+	
+}
+/*==========================================================*/
+#sub_transport{
+	width:100%;
+	height:auto;
+	margin-bottom:50;
+}
+#sub_transport h1{
+	font-family:sans-serif;
+	color:tomato;
+	margin: 40px 0 40px  0;
+	border-bottom: 3px solid tomato;
+	display: table;
+}
+#sub_transport img{
+	width:40%;
+	height:auto;
+	float:left;
+	margin:;
+	margin-bottom:50;
+}
+#sub_transport{}
+#sub_transport_right{
+	float:left;
+	width:57%;
+	margin-left:2%;
+	margin-bottom:50;
+}
+
+/*==========================================================*/
+#sub_events{}
+#sub_events h1{
+	text-align:center;
+	font-size: 37px;
+	line-height: 50px;
+	margin: 30px 0 30px 0;
+	padding: 020 0 0 0;
+	font-style: normal;
+	color: #E90421;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-family: sans-serif;
+	display: inline-block;
+	border-bottom: 4px solid #E90421;
+	color: red;
+	animation: opa;
+	animation-duration: 3s;
+}
+#sub_events span{
+	font-weight: 600;
+}
